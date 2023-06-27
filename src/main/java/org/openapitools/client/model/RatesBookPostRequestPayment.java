@@ -105,12 +105,12 @@ public class RatesBookPostRequestPayment {
     public static class Adapter extends TypeAdapter<MethodEnum> {
       @Override
       public void write(final JsonWriter jsonWriter, final MethodEnum enumeration) throws IOException {
-        jsonWriter.value(enumeration.getValue());
+        jsonWriter.value((String) enumeration.getValue());
       }
 
       @Override
       public MethodEnum read(final JsonReader jsonReader) throws IOException {
-        Object value =  jsonReader.nextObject();
+        Object value =  jsonReader.nextString();
         return MethodEnum.fromValue(value);
       }
     }

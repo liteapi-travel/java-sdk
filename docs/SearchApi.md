@@ -23,7 +23,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.SearchApi;
 
 public class Example {
@@ -38,14 +37,14 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     SearchApi apiInstance = new SearchApi(defaultClient);
-    Object hotelIds = lp3803c,lp1f982,lp19b70,lp19e75; // Object | List of hotelIds
-    Object checkin = 2023-11-15; // Object | Check in data in YYYY-MM-DD format
-    Object checkout = 2023-11-16; // Object | Check out data in YYYY-MM-DD format
-    Object currency = USD; // Object | Currency code - example (USD)
-    Object guestNationality = US; // Object | Guest nationality ISO-2 code - example (SG)
+    Object hotelIds = "lp3803c,lp1f982,lp19b70,lp19e75"; // Object | List of hotelIds
+    Object checkin = "2023-11-15"; // Object | Check in data in YYYY-MM-DD format
+    Object checkout = "2023-11-16"; // Object | Check out data in YYYY-MM-DD format
+    Object currency = "USD"; // Object | Currency code - example (USD)
+    Object guestNationality = "US"; // Object | Guest nationality ISO-2 code - example (SG)
     Object adults = 1; // Object | Number of adult guests staying
-    Object children = 12,9; // Object | Number of children staying if any
-    Object guestId = testtraveler1; // Object | Unique traveler ID if available
+    Object children = "12,9"; // Object | Number of children staying if any
+    Object guestId = "testtraveler1"; // Object | Unique traveler ID if available
     try {
       Object result = apiInstance.hotelsGet(hotelIds, checkin, checkout, currency, guestNationality, adults, children, guestId);
       System.out.println(result);
@@ -109,7 +108,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.SearchApi;
 
 public class Example {
@@ -124,14 +122,14 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     SearchApi apiInstance = new SearchApi(defaultClient);
-    Object hotelIds = lp3803c,lp1f982,lp19b70,lp19e75; // Object | List of hotelIds
-    Object checkin = 2023-11-15; // Object | Check in data in YYYY-MM-DD format
-    Object checkout = 2023-11-16; // Object | Check out data in YYYY-MM-DD format
-    Object guestNationality = US; // Object | Guest nationality ISO-2 code - example (SG)
-    Object currency = USD; // Object | Currency code - example (USD)
+    Object hotelIds = "lp3803c,lp1f982,lp19b70,lp19e75"; // Object | List of hotelIds
+    Object checkin = "2023-11-15"; // Object | Check in data in YYYY-MM-DD format
+    Object checkout = "2023-11-16"; // Object | Check out data in YYYY-MM-DD format
+    Object guestNationality = "US"; // Object | Guest nationality ISO-2 code - example (SG)
+    Object currency = "USD"; // Object | Currency code - example (USD)
     Object adults = 1; // Object | Number of adult guests staying
-    Object children = 12,9; // Object | Number of children staying if any
-    Object guestId = traveler1; // Object | Unique traveler ID if available
+    Object children = "12,9"; // Object | Number of children staying if any
+    Object guestId = "traveler1"; // Object | Unique traveler ID if available
     try {
       Object result = apiInstance.hotelsRatesGet(hotelIds, checkin, checkout, guestNationality, currency, adults, children, guestId);
       System.out.println(result);

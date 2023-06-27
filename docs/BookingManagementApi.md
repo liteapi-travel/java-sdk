@@ -24,7 +24,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.BookingManagementApi;
 
 public class Example {
@@ -39,7 +38,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     BookingManagementApi apiInstance = new BookingManagementApi(defaultClient);
-    Object bookingId =  hSq2gVDrf; // Object | The Booking Id that needs to be retrieved
+    Object bookingId =  "hSq2gVDrf"; // Object | The Booking Id that needs to be retrieved
     try {
       Object result = apiInstance.bookingsBookingIdGet(bookingId);
       System.out.println(result);
@@ -95,7 +94,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.BookingManagementApi;
 
 public class Example {
@@ -110,7 +108,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     BookingManagementApi apiInstance = new BookingManagementApi(defaultClient);
-    Object bookingId = hSq2gVDrf; // Object | (Required) The unique identifier of the booking you would like to update.
+    Object bookingId = "hSq2gVDrf"; // Object | (Required) The unique identifier of the booking you would like to update.
     try {
       Object result = apiInstance.bookingsBookingIdPut(bookingId);
       System.out.println(result);
@@ -167,7 +165,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.BookingManagementApi;
 
 public class Example {
@@ -182,7 +179,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     BookingManagementApi apiInstance = new BookingManagementApi(defaultClient);
-    Object guestId = FrT56hfty; // Object | The Guest Id of the user
+    Object guestId = "FrT56hfty"; // Object | The Guest Id of the user
     try {
       Object result = apiInstance.bookingsGet(guestId);
       System.out.println(result);

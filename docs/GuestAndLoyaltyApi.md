@@ -22,7 +22,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.GuestAndLoyaltyApi;
 
 public class Example {
@@ -37,7 +36,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     GuestAndLoyaltyApi apiInstance = new GuestAndLoyaltyApi(defaultClient);
-    Object email = johndoe@nlite.ml; // Object | Email ID of the guest
+    Object email = "johndoe@nlite.ml"; // "String" | Email ID of the guest
     try {
       Object result = apiInstance.guestsGet(email);
       System.out.println(result);

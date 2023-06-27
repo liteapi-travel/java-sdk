@@ -27,7 +27,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
@@ -42,7 +41,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     StaticDataApi apiInstance = new StaticDataApi(defaultClient);
-    Object countryCode = SG; // Object | Country code in iso-2 format (example: SG)
+    Object countryCode = "SG"; // Object | Country code in iso-2 format (example: SG)
     try {
       Object result = apiInstance.dataCitiesGet(countryCode);
       System.out.println(result);
@@ -98,7 +97,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
@@ -164,7 +162,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
@@ -230,7 +227,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
@@ -245,7 +241,7 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     StaticDataApi apiInstance = new StaticDataApi(defaultClient);
-    Object hotelId = 57871; // Object | Unique ID of a hotel
+    Object hotelId = "57871"; // Object | Unique ID of a hotel
     try {
       Object result = apiInstance.dataHotelGet(hotelId);
       System.out.println(result);
@@ -301,7 +297,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
@@ -316,8 +311,8 @@ public class Example {
     //apikeyAuth.setApiKeyPrefix("Token");
 
     StaticDataApi apiInstance = new StaticDataApi(defaultClient);
-    Object countryCode = SG; // Object | country code ISO-2 code - example (SG)
-    Object cityName = Singapore; // Object | name of the city
+    Object countryCode = "SG"; // Object | country code ISO-2 code - example (SG)
+    Object cityName = "Singapore"; // Object | name of the city
     Object offset = 0; // Object | specifies the number of rows to skip before starting to return rows
     Object limit = 1000; // Object | limit number of results (max 1000)
     Object longitude = -115.16988; // Object | longitude geo coordinates
@@ -384,7 +379,6 @@ import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
 import org.openapitools.client.api.StaticDataApi;
 
 public class Example {
