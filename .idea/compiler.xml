@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="openapi-java-client" />
+        <module name="liteapi-java-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="openapi-java-client" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="openapi-java-client" options="-Xlint:all -J-Xss4m" />
+      <module name="litapi-java-client" options="-Xlint:all -J-Xss4m" />
+      <module name="liteapi-java-client" options="-Xlint:all -J-Xss4m" />
     </option>
   </component>
 </project>
