@@ -71,7 +71,7 @@ public class GuestAndLoyaltyApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -203,9 +203,6 @@ public class GuestAndLoyaltyApi {
      * 
      * @param email Email ID of the guest (optional)
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -297,7 +294,6 @@ public class GuestAndLoyaltyApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -383,7 +379,7 @@ public class GuestAndLoyaltyApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>

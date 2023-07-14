@@ -71,7 +71,7 @@ public class StaticDataApi {
      * @param _callback   Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -207,9 +207,7 @@ public class StaticDataApi {
      * 
      * @param countryCode Country code in iso-2 format (example: SG) (required)
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -299,7 +297,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -383,7 +381,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -464,7 +462,7 @@ public class StaticDataApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -568,9 +566,7 @@ public class StaticDataApi {
      * The API returns the list of countries available along with its ISO-2 code.
      * 
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -638,7 +634,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -700,7 +696,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -762,7 +758,7 @@ public class StaticDataApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -867,9 +863,7 @@ public class StaticDataApi {
      * of supported countries that the currency applies to.
      * 
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -938,7 +932,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1001,7 +995,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1064,7 +1058,7 @@ public class StaticDataApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1199,9 +1193,7 @@ public class StaticDataApi {
      * 
      * @param hotelId Unique ID of a hotel (required)
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1291,7 +1283,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1375,7 +1367,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1464,7 +1456,7 @@ public class StaticDataApi {
      * @param _callback   Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1637,9 +1629,7 @@ public class StaticDataApi {
      * @param latitude    latitude geo coordinates (optional)
      * @param distance    distance in meters (min 1000m) (optional)
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1738,7 +1728,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1831,7 +1821,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -1915,7 +1905,7 @@ public class StaticDataApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -2020,9 +2010,6 @@ public class StaticDataApi {
      * coordinates and country code in ISO-2 format.
      * 
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -2092,7 +2079,7 @@ public class StaticDataApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -2156,7 +2143,7 @@ public class StaticDataApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
+     * 
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>

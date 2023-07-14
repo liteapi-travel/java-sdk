@@ -12,12 +12,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import travel.liteapi.client.ApiException;
-import travel.liteapi.client.api.SearchApi;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * API tests for SearchApi

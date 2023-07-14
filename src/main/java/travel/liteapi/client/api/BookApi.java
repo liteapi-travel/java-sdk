@@ -70,11 +70,20 @@ public class BookApi {
     /**
      * Build call for ratesBookPost
      * 
-     * @param ratesBookPostRequest (optional)
+     * @param prebookId (optional)
+     * @param guestFirstName, 
+     * @param guestLastName, 
+     * @param guestEmail,
+     * @param paymentMethod, 
+     * @param holderName, 
+     * @param card_number, 
+     * @param exp_month, 
+     * @param exp_year, 
+     * @param cvc,
+     * @param  token,
      * @param _callback            Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -232,11 +241,18 @@ public class BookApi {
      * include the booking details including the dates, price and the cancellation
      * policies. Example API key for test: sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param ratesBookPostRequest (optional)
+     * @param prebookId (optional)
+     * @param guestFirstName, 
+     * @param guestLastName, 
+     * @param guestEmail,
+     * @param paymentMethod, 
+     * @param holderName, 
+     * @param card_number, 
+     * @param exp_month, 
+     * @param exp_year, 
+     * @param cvc,
+     * @param  token,
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -332,11 +348,20 @@ public class BookApi {
      * include the booking details including the dates, price and the cancellation
      * policies. Example API key for test: sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param ratesBookPostRequest (optional)
+     * @param prebookId (optional)
+     * @param guestFirstName, 
+     * @param guestLastName, 
+     * @param guestEmail,
+     * @param paymentMethod, 
+     * @param holderName, 
+     * @param card_number, 
+     * @param exp_month, 
+     * @param exp_year, 
+     * @param cvc,
+     * @param  token,
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -428,13 +453,22 @@ public class BookApi {
      * include the booking details including the dates, price and the cancellation
      * policies. Example API key for test: sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param ratesBookPostRequest (optional)
+     * @param prebookId (optional)
+     * @param guestFirstName, 
+     * @param guestLastName, 
+     * @param guestEmail,
+     * @param paymentMethod, 
+     * @param holderName, 
+     * @param card_number, 
+     * @param exp_month, 
+     * @param exp_year, 
+     * @param cvc,
+     * @param  token,
      * @param _callback            The callback to be executed when the API call
      *                             finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -520,11 +554,10 @@ public class BookApi {
     /**
      * Build call for ratesPrebookPost
      * 
-     * @param body      (optional)
+     * @param rateId      (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -656,11 +689,8 @@ public class BookApi {
      * boarding information has changed. Example API key for test
      * sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param body (optional)
+     * @param rateId (optional)
      * @return Object
-     * @throws ApiException If fail to call the API, e.g. server error or cannot
-     *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -751,11 +781,10 @@ public class BookApi {
      * boarding information has changed. Example API key for test
      * sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param body (optional)
+     * @param rateId (optional)
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
@@ -839,12 +868,11 @@ public class BookApi {
      * boarding information has changed. Example API key for test
      * sand_c0155ab8-c683-4f26-8f94-b5e92c5797b9
      * 
-     * @param body      (optional)
+     * @param rateId      (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     * @http.response.details
      *                        <table summary="Response Details" border="1">
      *                        <tr>
      *                        <td>Status Code</td>
