@@ -31,17 +31,28 @@
 - [Example Project](#example-project)
 
 # Introduction
-[liteAPI](https://www.liteapi.travel/) The fastest way to build travel apps
-Launch your hospitality product in minutes. Effortlessly monetize by selling accommodations at over 2 million properties worldwide.
+[liteAPI](https://www.liteapi.travel/) is an innovative and robust collection of infrastructure APIs that cater to the travel industry. It is designed to empower developers, offering them the fastest way to build and launch comprehensive travel applications.
 
+At the heart of LiteAPI's power is its extensive network of over 2 million properties worldwide. By incorporating LiteAPI into an app, developers can effortlessly tap into the vast inventory, allowing users to search and book accommodations at these properties.
 
-The liteAPI can be used to to do the following:
-- Get room rates & availability for a set of hotels. 
-- Select a specific hotel with room availability and make a booking 
-- Manage the bookings 
-- retrieve and cancel existing bookings.
-- Get static content for hotels.
-- Search hotels by destination.
+But that's not all. With LiteAPI, monetization is made even more simple. Developers can generate revenue through their hospitality products by selling accommodations from LiteAPI's broad portfolio of properties. This means that not only can developers launch their products quickly, they can also start generating profits in no time.
+
+LiteAPI opens up a range of powerful functions for travel and hospitality applications. Its features include:
+
+<h3 style="font-weight: 500; display:inline">Hotel Search:</h3> Developers can incorporate a robust search function that allows users to find hotels based on their preferred destination. This can help users discover accommodations that suit their travel plans.
+<br><br>
+<h3 style="font-weight: 500; display:inline">Static Content for Hotels:</h3> LiteAPI also provides access to static content for hotels, including descriptions, images, and amenity details. This is essential for developers to present comprehensive and accurate information to the end users, aiding their decision-making process.
+<br><br>
+<h3 style="font-weight: 500; display:inline">Room Rates & Availability:</h3> One of the most significant features of LiteAPI is the ability to pull data on room rates and availability for a selected set of hotels. This feature ensures users have real-time, accurate information to assist in their booking decisions.
+<br><br>
+<h3 style="font-weight: 500; display:inline">Hotel Booking:</h3> Beyond just providing information, LiteAPI also allows developers to integrate a seamless booking function. Users can select a specific hotel with room availability and proceed to make a booking directly within the app.
+<br><br>
+<h3 style="font-weight: 500; display:inline">Booking Management:</h3> With LiteAPI, managing bookings becomes a straightforward task. The booking management functions allow for the tracking and management of all bookings made through the app, ensuring users can keep track of their travel plans.
+<br><br>
+<h3 style="font-weight: 500; display:inline">Booking Retrieval and Cancellation:</h3> Lastly, LiteAPI offers the capability to retrieve and cancel existing bookings. This added flexibility is crucial for users who might need to alter their travel plans.
+<br><br>
+All these features make LiteAPI a comprehensive solution for travel app development, offering a plethora of functionalities, from search and booking to management and cancellation. Developers can harness these powerful tools to create high-quality, user-friendly travel applications.
+<br><br>
 
 Don't have an account yet?  Sign Up [Here](https://dashboard.liteapi.travel/register/).
 
@@ -73,10 +84,10 @@ Add this dependency to your project's POM:
     <scope>compile</scope>
 </dependency>
 ```
+
 # Usage
-The package needs to be configured with your account's apikey, which is
-available in the [liteAPI Dashboard](https://dashboard.liteapi.travel/apikeys/). Require it with the key's
-value:
+
+After you have installed the LiteAPI package, you need to configure it with your API key. The API key is available in the [liteAPI Dashboard](https://dashboard.liteapi.travel/apikeys/). Here's the step to add the API key to the package.
 
 ```java
     import travel.liteapi.client.ApiClient;
@@ -95,7 +106,10 @@ value:
 
 # Static data
 
-To access the Static Data, you will need to create an instance of the StaticDataApi using the following line:
+Static data can be directly fetched from the functions below. Alternatively, LiteAPI also provides an option to download static data directly from the [Github URL](STATICDATA.md).
+
+To fetch static data from the functions, you need to create an instance of the StaticDataApi as follows:
+
 ```java
     import travel.liteapi.client.api.StaticDataApi;
 
@@ -106,7 +120,7 @@ To access the Static Data, you will need to create an instance of the StaticData
 ```
 ## List of cities
 
-The API returns a list of city names from a specific country. The country codes needs be is in ISO-2 format. To get the country codes in ISO-2 for all countries please use the GET Country list endpoint
+The getCitiesByCountryCode function returns a list of city names from a specific country. The country codes must be in ISO-2 format. To get the country codes in ISO-2 for all countries please use the getCountries function. 
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -132,7 +146,7 @@ An array of city objects containing the following properties:
 
 ## List of Countries
 
-The API returns the list of countries available along with its ISO-2 code.
+The getCountries function returns the list of countries available along with its ISO-2 code.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -140,7 +154,7 @@ The API returns the list of countries available along with its ISO-2 code.
 ```
 *  <h4 style="color:#9155fd; font-weight: 800;"> Parameters :</h4>
 
-This endpoint does not need any parameter.
+The function does not need any additional parameter.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Return type :</h4>
 
@@ -155,8 +169,7 @@ An array of country objects containing the following properties:
 
 ## List of available currencies
 
-The API returns all available currency codes along with its name and the list of supported countries that the currency applies to.
-
+The getCurrencies function returns all available currency codes along with its name and the list of supported countries that the currency applies to.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -164,7 +177,7 @@ The API returns all available currency codes along with its name and the list of
 ```
 *  <h4 style="color:#9155fd; font-weight: 800;"> Parameters :</h4>
 
-This endpoint does not need any parameter.
+This function does not need any additional parameters.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Return type :</h4>
 
@@ -180,7 +193,7 @@ An array of currency objects containing the following properties:
 
 ## List of hotels
 
-The API returns a list of hotels available based on different search criterion. The minimum required information is the county code in ISO-2 format.
+The getHotels function returns a list of hotels available based on different search criteria. The minimum required information is the country code in ISO-2 format.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -237,7 +250,7 @@ An array of hotel objects containing the following properties:
 
 ## Hotel details
 
-The hotel details API returns all the static contents details of a hotel or property if the hotel ID is provided. The static content include name, description, address, amenities, cancellation policies, images and more.
+The getHotelDetails function returns all the static contents details of a hotel or property when given a hotel ID. The static content includes name, description, address, amenities, cancellation policies, images and more.
 
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
@@ -282,7 +295,7 @@ The hotel details API returns all the static contents details of a hotel or prop
 
 ## IATA code list
 
-The API returns the IATA (International Air Transport Association) codes for all available airports along with the name of the airport, geographical coordinates and country code in ISO-2 format.
+The getIataCodes function returns the IATA (International Air Transport Association) codes for all available airports along with the name of the airport, geographical coordinates and country code in ISO-2 format.
 
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
@@ -291,7 +304,7 @@ The API returns the IATA (International Air Transport Association) codes for all
 ```
 *  <h4 style="color:#9155fd; font-weight: 800;"> Parameters :</h4>
 
-This endpoint does not need any parameter.
+This function does not need any additional parameters.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Return type :</h4>
 
@@ -309,14 +322,14 @@ An array of IATA objects with the following properties:
 
 # Booking flow
 
-liteAPI is a comprehensive and simple to implement Hotel Booking API. The booking flow consists of 3 section: Search, Book, and 
+liteAPI offers a comprehensive and simple way to implement Hotel Booking flow. The booking flow consists of 3 sections: Search, Book, and 
 booking management.
 
 <br>
 
 ## Search
 
-To access the search functionality and retrieve available hotels, you will need to create an instance of the SearchApi using the following line:
+To access the search functionality and retrieve available hotels, you need to create an instance of the SearchApi as follows:
 
 ```java
     import travel.liteapi.client.api.SearchApi;
@@ -329,15 +342,9 @@ To access the search functionality and retrieve available hotels, you will need 
 
 ### Minimum Rates availability
 ------
-Hotel Minimum Rates API is to search and return the minimum room rates that are available for a list of hotel ID's on the specified search dates.
+The getMinimumRates function is used to retrieve the minimum room rates that are available for a list of hotel ID's on the specified search dates.
 
 For each hotel ID, the minimum room rate that is available is returned.
-
-The API also has a built in loyalty rewards system. The system rewards return users who have made prior bookings.
-
-If the search is coming from a known guest ID, the guest level is also returned along with the pricing that's appropriate for the guest level.
-
-If it is a new user, the guest ID will be generated at the time of the first confirmed booking.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -389,16 +396,7 @@ An array of hotel minimum rates objects with the following properties:
 
 ### Hotel full rates availability
 ------
-The Full Rates API is to search and return all available rooms along with its rates, cancellation policies for a list of hotel ID's based on the search dates.
-
-For each hotel ID, all available room information is returned.
-
-The API also has a built in loyalty rewards system. The system rewards return users who have made prior bookings.
-
-If the search is coming from a known guest ID, the guest level is also returned along with the pricing that's appropriate for the guest level.
-
-If it is a new user, the guest ID will be generated at the time of the first confirmed booking.
-
+The getFullRatest function return the rates of all available rooms along with its cancellation policies for a list of hotel ID's based on the search dates.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -463,7 +461,7 @@ An array of hotel full rates with the following properties:
 
 ## Book
 
-To perform pre booking and booking operations, you will need to create an instance of the BookApi as follows:
+To perform pre booking and booking operations, you need to create an instance of the BookApi as follows:
 
 ```java
     import travel.liteapi.client.api.BookApi;
@@ -476,11 +474,8 @@ To perform pre booking and booking operations, you will need to create an instan
 ### Hotel rate prebook
 ------
 
-This API is used to confirm if the room and rates for the search criterion. The input to the endpoint is a specific rate Id coming from the GET hotel full rates availability API.
-
-In response, the API generates a prebook Id, a new rate Id and contains information if price, cancellation policy or boarding information has changed.
-
-
+The preBook function is used to confirm if the room rates are still available before a booking function can be called. The input to the function is a specific rate Id coming from the getFullRates function.
+The function returns a prebook Id, a new rate Id and also contains information if the price, cancellation policy or boarding information changed.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -536,7 +531,7 @@ An object containing prebook information and room type details.
 ### Hotel rate book
 ------
 
-This API confirms a booking when the prebook Id and the rate Id from the pre book stage along with the guest and payment information are passed.
+The book function confirms a booking when the prebook Id and the rate Id from the pre book stage along with the guest and payment information are passeed.
 
 The guest information is an object that should include the guest first name, last name and email.
 
@@ -622,7 +617,8 @@ An object containing booking information and room details.
 
 ## Booking management
 
-To manage bookings to perform various operations such as retrieving a list of bookings, fetching details of a specific booking, and cancelling a booking, you can utilize the BookingManagementApi instance as follows:
+To manage bookings to perform various operations such as retrieving a list of bookings, fetching details of a specific booking, and cancelling a booking, you need to create an instance of the BookingManagementApi instance as follows:
+
 ```java
     import travel.liteapi.client.api.BookingManagementApi;
 
@@ -633,7 +629,8 @@ To manage bookings to perform various operations such as retrieving a list of bo
 
 ### Booking list
 ------
-The API returns the list of booking Id's for a given guest Id.
+
+The getBookingListByGuestId function returns the list of all booking Id's for a given guest Id.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -661,8 +658,8 @@ An array containing objects with the following properties:
 
 ### Booking retrieve
 ------
-The API returns the status and the details for the a specific booking Id.
 
+The retrievedBooking function returns the status and the details of a specific booking Id.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -715,7 +712,7 @@ An object containing booking information and room details.
 ### Booking cancel
 ------
 
-This API is used to request a cancellation of an existing confirmed booking. Cancellation policies and conditions will be used to determine the success of the cancellation. For example a booking with non-refundable (NRFN) tag or a booking with a cancellation policy that was requested past the cancellation date will not be able to cancel the confirmed booking.
+The cancelBooking function is used to request a cancellation of an existing confirmed booking. Cancellation policies and conditions will be used to determine the success of the cancellation. For example a booking with non-refundable (NRFN) tag or a booking with a cancellation policy that was requested past the cancellation date will not be able to cancel the confirmed booking.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
@@ -744,7 +741,7 @@ Name | Type | Description  | Notes
 
 # Guest and loyalty
 
-To handle guest and loyalty operations you can utilize the GuestAndLoyaltyApi as follows:
+To handle guest and loyalty operations, you need to create an instance of the GuestAndLoyaltyApi as follows:
 
 ```java
     import travel.liteapi.client.api.GuestAndLoyaltyApi;
@@ -754,13 +751,16 @@ To handle guest and loyalty operations you can utilize the GuestAndLoyaltyApi as
     }
 ```
 ## Guests
-The guests API returns the unique guest IDs
+
+The getGuests function returns the unique guestID when an email is passed as a parameter. The email that is passed to the book function is used to create a guestID. This guestID can be used to build loyalty programs in the application.
 
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
     Object result = guestAndLoyaltyInstance.getGuests(null);
 ```
+
 If you want to retrieve the guest IDs of a specific user based on their email, you can provide the email as an optional parameter:
+
 ```java
     String email = "johndoe@nlite.ml";
     Object result = guestAndLoyaltyInstance.getGuests(email);
