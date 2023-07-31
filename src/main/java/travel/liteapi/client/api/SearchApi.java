@@ -81,75 +81,7 @@ public class SearchApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getMinimumRatesCall(String[] hotelIds, String checkin, String checkout, String currency,
             String guestNationality, Integer adults, Integer[] children, String guestId, final ApiCallback _callback)
@@ -295,75 +227,7 @@ public class SearchApi {
      * @param guestId          Unique traveler ID if available (optional)
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getMinimumRates(String[] hotelIds, String checkin, String checkout, String currency,
             String guestNationality, Integer adults, Integer[] children, String guestId) {
@@ -406,75 +270,7 @@ public class SearchApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getMinimumRatesWithHttpInfo(String[] hotelIds, String checkin, String checkout,
             String currency, String guestNationality, Integer adults, Integer[] children, String guestId)
@@ -513,75 +309,7 @@ public class SearchApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getMinimumRatesAsync(String[] hotelIds, String checkin, String checkout, String currency,
             String guestNationality, Integer adults, Integer[] children, String guestId,
@@ -611,70 +339,7 @@ public class SearchApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getFullRatesCall(String[] hotelIds, String checkin, String checkout, String guestNationality,
             String currency, Integer adults, Integer[] children, String guestId, final ApiCallback _callback)
@@ -820,70 +485,7 @@ public class SearchApi {
      * @param children         Number of children staying if any (optional)
      * @param guestId          Unique traveler ID if available (optional)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getFullRatest(String[] hotelIds, String checkin, String checkout, String currency, 
     String guestNationality, Integer adults, Integer[] children, String guestId) {
@@ -927,70 +529,7 @@ public class SearchApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getFullRatesWithHttpInfo(String[] hotelIds, String checkin, String checkout,
             String guestNationality, String currency, Integer adults, Integer[] children, String guestId)
@@ -1029,70 +568,7 @@ public class SearchApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getFullRatesAsync(String[] hotelIds, String checkin, String checkout, String guestNationality,
             String currency, Integer adults, Integer[] children, String guestId, final ApiCallback<Object> _callback)

@@ -7,7 +7,7 @@
     <artifactId>liteapi-java-client</artifactId>
     <packaging>jar</packaging>
     <name>liteAPI java client</name>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <url>https://github.com/liteapi-travel/java-sdk</url>
     <description>liteAPI The fastest way to build travel apps Launch your hospitality product in minutes. Effortlessly monetize by selling accommodations at over 2 million properties worldwide.</description>
     <scm>
@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
+                <version>3.3.1</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -337,6 +337,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <profiles>
+        <profile>
+            <id>deploy</id>
+        </profile>
+    </profiles>
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>

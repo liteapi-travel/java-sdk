@@ -72,70 +72,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getCitiesCall(String countryCode, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -208,70 +145,7 @@ public class StaticDataApi {
      * @param countryCode Country code in iso-2 format (example: SG) (required)
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getCitiesByCountryCode(String countryCode) {
         try {
@@ -298,70 +172,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getCitiesWithHttpInfo(String countryCode) throws ApiException {
         okhttp3.Call localVarCall = getCitiesValidateBeforeCall(countryCode, null);
@@ -382,70 +193,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getCitiesAsync(String countryCode, final ApiCallback<Object> _callback) throws ApiException {
 
@@ -463,51 +211,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getCountriesCall(final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -567,51 +271,7 @@ public class StaticDataApi {
      * 
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public Object getCountries() {
         try {
@@ -635,51 +295,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public ApiResponse<Object> getCountriesWithHttpInfo() throws ApiException {
         okhttp3.Call localVarCall = getCountriesValidateBeforeCall(null);
@@ -697,51 +313,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getCountriesAsync(final ApiCallback<Object> _callback) throws ApiException {
 
@@ -759,51 +331,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getCurrenciesCall(final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -864,51 +392,7 @@ public class StaticDataApi {
      * 
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public Object getCurrencies() {
         try {
@@ -933,51 +417,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public ApiResponse<Object> getCurrenciesWithHttpInfo() throws ApiException {
         okhttp3.Call localVarCall = getCurrenciesValidateBeforeCall(null);
@@ -996,51 +436,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getCurrenciesAsync(final ApiCallback<Object> _callback) throws ApiException {
 
@@ -1059,70 +455,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getHotelDetailsCall(String hotelId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -1194,70 +527,7 @@ public class StaticDataApi {
      * @param hotelId Unique ID of a hotel (required)
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getHotelDetails(String hotelId) {
         try {
@@ -1284,70 +554,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getHotelWithHttpInfo(String hotelId) throws ApiException {
         okhttp3.Call localVarCall = getHotelValidateBeforeCall(hotelId, null);
@@ -1368,70 +575,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getHotelAsync(String hotelId, final ApiCallback<Object> _callback) throws ApiException {
 
@@ -1457,70 +601,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getHotelsCall(String countryCode, String cityName, Integer offset, Integer limit,
             String longitude, String latitude, Integer distance, final ApiCallback _callback) throws ApiException {
@@ -1630,70 +711,7 @@ public class StaticDataApi {
      * @param distance    distance in meters (min 1000m) (optional)
      * @return Object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getHotels(String countryCode, String cityName, Integer offset, Integer limit, String longitude,
             String latitude, Integer distance) {
@@ -1729,70 +747,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getHotelsWithHttpInfo(String countryCode, String cityName, Integer offset, Integer limit,
             String longitude, String latitude, Integer distance) throws ApiException {
@@ -1822,70 +777,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getHotelsAsync(String countryCode, String cityName, Integer offset, Integer limit,
             String longitude, String latitude, Integer distance, final ApiCallback<Object> _callback)
@@ -1906,51 +798,7 @@ public class StaticDataApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getIataCodesCall(final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -2010,51 +858,7 @@ public class StaticDataApi {
      * coordinates and country code in ISO-2 format.
      * 
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public Object getIataCodes() {
         try {
@@ -2080,51 +884,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public ApiResponse<Object> getIataCodesWithHttpInfo() throws ApiException {
         okhttp3.Call localVarCall = getIataCodesValidateBeforeCall(null);
@@ -2144,51 +904,7 @@ public class StaticDataApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+    
      */
     public okhttp3.Call getIataCodesAsync(final ApiCallback<Object> _callback) throws ApiException {
 

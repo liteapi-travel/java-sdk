@@ -72,73 +72,7 @@ public class GuestAndLoyaltyApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getGuestsCall(String email, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -203,73 +137,7 @@ public class GuestAndLoyaltyApi {
      * 
      * @param email Email ID of the guest (optional)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object getGuests(String email) {
         try {
@@ -294,73 +162,7 @@ public class GuestAndLoyaltyApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> getGuestsWithHttpInfo(String email) throws ApiException {
         okhttp3.Call localVarCall = getGuestsValidateBeforeCall(email, null);
@@ -380,73 +182,7 @@ public class GuestAndLoyaltyApi {
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
      * 
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call getGuestsAsync(String email, final ApiCallback<Object> _callback) throws ApiException {
 

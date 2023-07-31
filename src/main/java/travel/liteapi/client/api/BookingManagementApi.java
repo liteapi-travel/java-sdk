@@ -71,61 +71,7 @@ public class BookingManagementApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+   
      */
     public okhttp3.Call retrievedBookingCall(String bookingId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -193,61 +139,7 @@ public class BookingManagementApi {
      * 
      * @param bookingId The Booking Id that needs to be retrieved (required)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+   
      */
     public Object retrievedBooking(String bookingId) {
         try {
@@ -271,61 +163,7 @@ public class BookingManagementApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+   
      */
     public ApiResponse<Object> retrievedBookingWithHttpInfo(String bookingId) throws ApiException {
         okhttp3.Call localVarCall = retrievedBookingValidateBeforeCall(bookingId, null);
@@ -343,61 +181,7 @@ public class BookingManagementApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+   
      */
     public okhttp3.Call retrievedBookingAsync(String bookingId, final ApiCallback<Object> _callback)
             throws ApiException {
@@ -417,75 +201,7 @@ public class BookingManagementApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>304</td>
-     *                        <td>Not Modified</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call cancelBookingCall(String bookingId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -559,75 +275,7 @@ public class BookingManagementApi {
      * @param bookingId (Required) The unique identifier of the booking you would
      *                  like to update. (required)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>304</td>
-     *                        <td>Not Modified</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object cancelBooking(String bookingId) {
         try {
@@ -657,75 +305,7 @@ public class BookingManagementApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>304</td>
-     *                        <td>Not Modified</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> cancelBookingWithHttpInfo(String bookingId) throws ApiException {
         okhttp3.Call localVarCall = cancelBookingValidateBeforeCall(bookingId, null);
@@ -749,75 +329,7 @@ public class BookingManagementApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>304</td>
-     *                        <td>Not Modified</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Access-Control-Allow-Credentials - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Content-Type - <br>
-     *                        * Date - <br>
-     *                        * Content-Length - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call cancelBookingAsync(String bookingId, final ApiCallback<Object> _callback) throws ApiException {
 
@@ -835,73 +347,7 @@ public class BookingManagementApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+     
      */
     public okhttp3.Call getBookingListCall(String guestId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -971,73 +417,7 @@ public class BookingManagementApi {
      * 
      * @param guestId The Guest Id of the user (required)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+     
      */
     public Object getBookingListByGuestId(String guestId) {
         try {
@@ -1061,73 +441,7 @@ public class BookingManagementApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+     
      */
     public ApiResponse<Object> getBookingListWithHttpInfo(String guestId) throws ApiException {
         okhttp3.Call localVarCall = getBookingListValidateBeforeCall(guestId, null);
@@ -1145,73 +459,7 @@ public class BookingManagementApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>204</td>
-     *                        <td>No Content</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+     
      */
     public okhttp3.Call getBookingListAsync(String guestId, final ApiCallback<Object> _callback) throws ApiException {
 

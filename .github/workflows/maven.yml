@@ -6,24 +6,34 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [main]
 
 jobs:
   build:
     name: Build liteAPI
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        java: [ '8' ]
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up JDK
-      uses: actions/setup-java@v2
-      with:
-        java-version: ${{ matrix.java }}
-        distribution: 'temurin'
-        cache: maven
-    - name: Build with Maven
-      run: mvn -B package --no-transfer-progress --file pom.xml
+      - uses: actions/checkout@v2
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: 8
+          distribution: "temurin"
+          cache: maven
+      - name: Build with Maven
+        run: mvn -B package --no-transfer-progress --file pom.xml
+      - name: Import GPG private key
+        run: |
+          mkdir -p ~/.gnupg
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+          gpg --list-secret-keys
+      - name: Deploy Maven package
+        run: |
+          mvn -B deploy \
+            --no-transfer-progress \
+            --file pom.xml \
+            -Dgpg.passphrase="${{ secrets.GPG_PASSPHRASE }}" \
+            -Dgpg.executable=gpg \
+            -DrepositoryId=ossrh \
+            -Durl=https://s01.oss.sonatype.org/service/local/staging/deploy/maven2 \
+            -DretryFailedDeploymentCount=3

@@ -252,7 +252,6 @@ An array of hotel objects containing the following properties:
 
 The getHotelDetails function returns all the static contents details of a hotel or property when given a hotel ID. The static content includes name, description, address, amenities, cancellation policies, images and more.
 
-
 *  <h4 style="color:#9155fd; font-weight: 800;"> Example :</h4>
 ```java
     String hotelId =  "lp24373";

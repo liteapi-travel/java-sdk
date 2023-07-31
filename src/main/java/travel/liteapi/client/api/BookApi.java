@@ -84,73 +84,7 @@ public class BookApi {
      * @param _callback            Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call bookCall(String prebookId, String guestFirstName, String guestLastName, String guestEmail,
             String paymentMethod, String holderName, String card_number, String exp_month, String exp_year, Integer cvc,
@@ -253,73 +187,7 @@ public class BookApi {
      * @param cvc,
      * @param  token,
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object book(String prebookId, String guestFirstName, String guestLastName, String guestEmail, String paymentMethod,
             String holderName, String card_number, String exp_month, String exp_year, Integer cvc, String token) {
@@ -362,73 +230,7 @@ public class BookApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> bookWithHttpInfo(String prebookId, String guestFirstName, String guestLastName,
             String guestEmail, String paymentMethod,
@@ -469,73 +271,7 @@ public class BookApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call bookAsync(String prebookId, String guestFirstName, String guestLastName, String guestEmail,
             String paymentMethod,
@@ -558,72 +294,7 @@ public class BookApi {
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call preBookCall(String rateId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
@@ -691,72 +362,7 @@ public class BookApi {
      * 
      * @param rateId (optional)
      * @return Object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public Object preBook(String rateId) {
         try {
@@ -785,72 +391,7 @@ public class BookApi {
      * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot
      *                      deserialize the response body
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public ApiResponse<Object> preBookWithHttpInfo(String rateId) throws ApiException {
         okhttp3.Call localVarCall = preBookValidateBeforeCall(rateId, null);
@@ -873,72 +414,7 @@ public class BookApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the
      *                      request body object
-     *                        <table summary="Response Details" border="1">
-     *                        <tr>
-     *                        <td>Status Code</td>
-     *                        <td>Description</td>
-     *                        <td>Response Headers</td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>200</td>
-     *                        <td>OK</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>400</td>
-     *                        <td>Bad Request</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        <tr>
-     *                        <td>401</td>
-     *                        <td>Unauthorized</td>
-     *                        <td>* Date - <br>
-     *                        * Content-Type - <br>
-     *                        * Content-Length - <br>
-     *                        * Connection - <br>
-     *                        * x-amzn-RequestId - <br>
-     *                        * Access-Control-Allow-Origin - <br>
-     *                        * Content-Encoding - <br>
-     *                        * Access-Control-Allow-Headers - <br>
-     *                        * x-amzn-Remapped-Content-Length - <br>
-     *                        * x-amz-apigw-id - <br>
-     *                        * Access-Control-Allow-Methods - <br>
-     *                        * Access-Control-Expose-Headers - <br>
-     *                        * x-amzn-Remapped-Date - <br>
-     *                        * Access-Control-Max-Age - <br>
-     *                        * Access-Control-Allow-Credentials - <br>
-     *                        </td>
-     *                        </tr>
-     *                        </table>
+
      */
     public okhttp3.Call ratesPrebookPostAsync(String rateId, final ApiCallback<Object> _callback) throws ApiException {
 
