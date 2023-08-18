@@ -32,6 +32,15 @@ public class BookingManagementApi {
     private int localHostIndex;
     private String localCustomBaseUrl;
 
+    protected List<ServerConfiguration> servers = new ArrayList<ServerConfiguration>(Arrays.asList(
+        new ServerConfiguration(
+          "https://api.liteapi.travel/v2.0",
+          "https://book.liteapi.travel/v2.0",
+          "No description provided",
+          new HashMap<String, ServerVariable>()
+        )
+    ));
+
     public BookingManagementApi() {
         this(Configuration.getDefaultApiClient());
     }
@@ -114,6 +123,7 @@ public class BookingManagementApi {
             localVarHeaderParams.put("Content-Type", localVarContentType);
         }
 
+        basePath = servers.get(0).bookURL(null);
         String[] localVarAuthNames = new String[] { "apikeyAuth" };
         return localVarApiClient.buildCall(basePath, localVarPath, "GET", localVarQueryParams,
                 localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams,
@@ -244,6 +254,7 @@ public class BookingManagementApi {
             localVarHeaderParams.put("Content-Type", localVarContentType);
         }
 
+        basePath = servers.get(0).bookURL(null);
         String[] localVarAuthNames = new String[] { "apikeyAuth" };
         return localVarApiClient.buildCall(basePath, localVarPath, "PUT", localVarQueryParams,
                 localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams,
@@ -393,6 +404,7 @@ public class BookingManagementApi {
             localVarHeaderParams.put("Content-Type", localVarContentType);
         }
 
+        basePath = servers.get(0).bookURL(null);
         String[] localVarAuthNames = new String[] { "apikeyAuth" };
         return localVarApiClient.buildCall(basePath, localVarPath, "GET", localVarQueryParams,
                 localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams,

@@ -54,9 +54,11 @@ import java.util.regex.Pattern;
 public class ApiClient {
 
     private String basePath = "https://api.liteapi.travel/v2.0";
+    private String bookBasePath = "https://book.liteapi.travel/v2.0";
     protected List<ServerConfiguration> servers = new ArrayList<ServerConfiguration>(Arrays.asList(
     new ServerConfiguration(
       "https://api.liteapi.travel/v2.0",
+      "https://book.liteapi.travel/v2.0",
       "No description provided",
       new HashMap<String, ServerVariable>()
     )

@@ -7,6 +7,7 @@ import java.util.Map;
  */
 public class ServerConfiguration {
     public String URL;
+    public String bookURL;
     public String description;
     public Map<String, ServerVariable> variables;
 
@@ -15,8 +16,9 @@ public class ServerConfiguration {
      * @param description A description of the host designated by the URL.
      * @param variables A map between a variable name and its value. The value is used for substitution in the server's URL template.
      */
-    public ServerConfiguration(String URL, String description, Map<String, ServerVariable> variables) {
+    public ServerConfiguration(String URL, String bookURL, String description, Map<String, ServerVariable> variables) {
         this.URL = URL;
+        this.bookURL = bookURL;
         this.description = description;
         this.variables = variables;
     }
@@ -29,17 +31,38 @@ public class ServerConfiguration {
      */
     public String URL(Map<String, String> variables) {
         String url = this.URL;
+        return replacePlaceholders(url);
+    } 
 
-        // go through variables and replace placeholders
-        for (Map.Entry<String, ServerVariable> variable: this.variables.entrySet()) {
+    /**
+     * Format BookURL template using given variables.
+     *
+     * @param variables A map between a variable name and its value.
+     * @return Formatted URL.
+     */
+    public String bookURL(Map<String, String> variables) {
+        String url = this.bookURL;
+        return replacePlaceholders(url);
+    }
+
+    /**
+     * go through variables and replace placeholders
+     *
+     * @param variables A map between a variable name and its value.
+     * @param url A map between a variable name and its value.
+     * @return Formatted URL.
+     */
+    public String replacePlaceholders(String url, Map<String, String> variables) {
+        for (Map.Entry<String, ServerVariable> variable : this.variables.entrySet()) {
             String name = variable.getKey();
             ServerVariable serverVariable = variable.getValue();
-            String value = serverVariable.defaultValue;
+            String value = serverVariable.defaultValue; 
 
             if (variables != null && variables.containsKey(name)) {
                 value = variables.get(name);
                 if (serverVariable.enumValues.size() > 0 && !serverVariable.enumValues.contains(value)) {
-                    throw new IllegalArgumentException("The variable " + name + " in the server URL has invalid value " + value + ".");
+                    throw new IllegalArgumentException(
+                            "The variable " + name + " in the server URL has invalid value " + value + ".");
                 }
             }
             url = url.replace("{" + name + "}", value);
@@ -54,5 +77,14 @@ public class ServerConfiguration {
      */
     public String URL() {
         return URL(null);
+    }
+        
+    /**
+     * Format BookURL template using default server variables.
+     *
+     * @return Formatted URL.
+     */
+    public String bookURL() {
+        return bookURL(null);
     }
 }

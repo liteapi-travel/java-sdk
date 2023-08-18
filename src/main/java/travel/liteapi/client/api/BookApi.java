@@ -17,6 +17,7 @@ import travel.liteapi.client.Configuration;
 import travel.liteapi.client.Pair;
 import travel.liteapi.client.ProgressRequestBody;
 import travel.liteapi.client.ProgressResponseBody;
+import travel.liteapi.client.ServerConfiguration;
 import travel.liteapi.client.model.RatesBookPostRequest;
 import travel.liteapi.client.model.RatesBookPostRequestGuestInfo;
 import travel.liteapi.client.model.RatesBookPostRequestPayment;
@@ -34,6 +35,15 @@ public class BookApi {
     private ApiClient localVarApiClient;
     private int localHostIndex;
     private String localCustomBaseUrl;
+
+    protected List<ServerConfiguration> servers = new ArrayList<ServerConfiguration>(Arrays.asList(
+        new ServerConfiguration(
+          "https://api.liteapi.travel/v2.0",
+          "https://book.liteapi.travel/v2.0",
+          "No description provided",
+          new HashMap<String, ServerVariable>()
+        )
+    ));
 
     public BookApi() {
         this(Configuration.getDefaultApiClient());
@@ -148,6 +158,7 @@ public class BookApi {
             localVarHeaderParams.put("Content-Type", localVarContentType);
         }
 
+        basePath = servers.get(0).bookURL(null);
         String[] localVarAuthNames = new String[] { "apikeyAuth" };
         return localVarApiClient.buildCall(basePath, localVarPath, "POST", localVarQueryParams,
                 localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams,
@@ -340,6 +351,7 @@ public class BookApi {
             localVarHeaderParams.put("Content-Type", localVarContentType);
         }
 
+        basePath = servers.get(0).bookURL(null);
         String[] localVarAuthNames = new String[] { "apikeyAuth" };
         return localVarApiClient.buildCall(basePath, localVarPath, "POST", localVarQueryParams,
                 localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams,
